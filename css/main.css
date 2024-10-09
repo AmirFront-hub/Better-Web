@@ -1,6 +1,11 @@
 section {
     padding: 1em;
-    text-align: center;
+    /*text-align: center;*/
+}
+
+main {
+	background-color: rgb(24, 24, 24);
+	color: white;
 }
 
 .titletext{
@@ -9,10 +14,17 @@ section {
 	border: solid white;
 	margin-top: 5em ;
 	background-color: rgb(51, 51, 51, 0.8);
+	text-align: center;
 }
 
 .titletext h4 {
 	font-size: 70%;
+}
+
+.titleschema {
+	text-align: center;
+
+	font-size: 2.5em;
 }
 
 .banner {
@@ -22,6 +34,7 @@ section {
 	background-repeat: no-repeat;
 	height: 100vh;
 	margin: 0;
+	border: solid white;
 }
 
 .about-us {
@@ -29,7 +42,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: white;
+    background-color: rgb(51, 51, 51);
     max-width: 1200px;
     margin: 50px auto;
     border-radius: 10px;
@@ -47,4 +60,38 @@ section {
     flex: 2;
 	text-align: left;
 	padding-left: 4em;
+	font-weight: 600;
+	font-size: 1em;
+}
+
+video {
+	min-height: 100%;
+	min-width: 100%;
+	width: 1px;
+	height: auto;
+	
+}
+
+.schematext {
+	/*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    max-width: 50em;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(41, 41, 41, 0.1);
+}
+
+.schematext ul li {
+	font-weight: bold;
+	text-decoration: none;
+	list-style: none;
+	
+}
+.schematext {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }

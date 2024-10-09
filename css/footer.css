@@ -1,6 +1,9 @@
 footer {
-    background-color: #333;
+    background-color: rgb(33, 33, 33);
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+.footerline {
+	border-top: solid white;
 }

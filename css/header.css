@@ -6,15 +6,16 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(33, 33, 33);
     color: white;
     padding: 1em;
     text-align: center;
+	/*border-bottom: #fdfdfd solid;*/
 }
 
 nav {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 nav ul {
@@ -29,6 +30,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
+	font-weight: bold;
     text-decoration: none;
 }
 
