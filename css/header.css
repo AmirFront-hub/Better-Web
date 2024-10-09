@@ -1,6 +1,6 @@
 body {
 	background-color: #fdfdfd;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -49,3 +49,17 @@ nav ul li:last-child a:hover {
 	background-color: white;
 	transition-duration: 0.7s;
 }
+
+.roboto-mono {
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 501;
+	font-style: normal;
+  }
+
+  .roboto-lower {
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+  }

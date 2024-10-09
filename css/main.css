@@ -23,8 +23,8 @@ main {
 
 .titleschema {
 	text-align: center;
-
 	font-size: 2.5em;
+	padding-bottom: 1em;
 }
 
 .banner {
@@ -39,13 +39,14 @@ main {
 
 .about-us {
     display: flex;
+	flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 50px;
     background-color: rgb(51, 51, 51);
-    max-width: 1200px;
+    max-width: 60%;
     margin: 50px auto;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
 
@@ -60,8 +61,11 @@ main {
     flex: 2;
 	text-align: left;
 	padding-left: 4em;
-	font-weight: 600;
-	font-size: 1em;
+	font-size: 1.3em;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
 }
 
 video {
@@ -69,7 +73,6 @@ video {
 	min-width: 100%;
 	width: 1px;
 	height: auto;
-	
 }
 
 .schematext {
@@ -78,10 +81,14 @@ video {
     justify-content: center;*/
     padding: 20px;
     background-color: rgb(51, 51, 51);
-    max-width: 50em;
+    max-width: 50rem;
     margin: 50px auto;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 8px 24px rgba(41, 41, 41, 0.1);
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
 }
 
 .schematext ul li {
