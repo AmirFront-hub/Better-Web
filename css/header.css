@@ -1,4 +1,5 @@
 body {
+	background-color: #fdfdfd;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,6 +10,11 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
 }
 
 nav ul {
@@ -24,4 +30,20 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li:last-child a {
+    
+    color: white;
+    font-weight: bold;
+	border: solid white;
+	border-radius: 21px;
+	padding: 12px;
+}
+
+nav ul li:last-child a:hover {
+	
+	color: #333;
+	background-color: white;
+	transition-duration: 0.7s;
 }
