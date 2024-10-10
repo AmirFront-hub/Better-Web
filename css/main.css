@@ -47,7 +47,7 @@ main {
     max-width: 60%;
     margin: 50px auto;
     border-radius: 30px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
 }
 
 .circle-image {
@@ -75,6 +75,11 @@ video {
 	height: auto;
 }
 
+.shadow {
+	box-shadow: 1.2em 1.2em 0em -0.3em #ffffff;
+}
+
+
 .schematext {
 	/*display: flex;
     align-items: center;
@@ -87,8 +92,10 @@ video {
     box-shadow: 0px 8px 24px rgba(41, 41, 41, 0.1);
 	font-family: "Roboto Mono", monospace;
 	font-optical-sizing: auto;
-	font-weight: 600;
+	font-weight: 700;
 	font-style: normal;
+	font-size: 1.4em;
+	box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
 }
 
 .schematext ul li {
