@@ -18,9 +18,7 @@
 		font-size: 12px;
 		padding: 3rem;
 		padding-left: none;
-	}
-	.profile-container {
-	
+		gap: 0;
 	}
 	.circle-image {
 		width: 100%;
@@ -39,7 +37,6 @@
 	.menu-left {
 		padding-bottom: 1em;
 		text-align: center;
-		ye
 	}
 
 	.menu-right {

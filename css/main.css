@@ -46,6 +46,7 @@ main {
     margin: 50px auto;
     border-radius: 30px;
     box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
+	gap: 2em;
 }
 
 .circle-image {
@@ -136,3 +137,7 @@ video {
 	padding-left: 5em;
 }
 
+ul li {
+	padding: 0;
+    list-style-type: none;
+}
