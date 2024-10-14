@@ -1,6 +1,6 @@
 section {
     padding: 1em;
-    /*text-align: center;*/
+	scroll-snap-align: start;
 }
 
 main {
@@ -47,6 +47,7 @@ main {
     border-radius: 30px;
     box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
 	gap: 2em;
+	animation: fade-up 0.5s;
 }
 
 .circle-image {
@@ -128,6 +129,25 @@ video {
 	box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
 }
 
+.submit-button {
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 501;
+	font-style: normal;
+	color: #333;
+    font-weight: bold;
+	/*border: solid white;*/
+	border-radius: 21px;
+	padding: 12px;
+}
+
+.submit-button:hover {
+	color: #ffffff;
+	background-color: #333;
+	border: 1px solid white;
+	transition-duration: 0.7s;
+}
+
 .menu-left {
 	text-align: left;
 }
@@ -140,4 +160,38 @@ video {
 ul li {
 	padding: 0;
     list-style-type: none;
+}
+
+textarea, input {
+	border:  1px black solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+@keyframes fade-down {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px) scale(0.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translateY(30px) scale(0.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
+.video-background {
+	animation: fade-up 0.5s;
 }

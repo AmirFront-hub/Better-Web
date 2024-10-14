@@ -7,3 +7,25 @@ footer {
 .footerline {
 	border-top: solid white;
 }
+
+.social-media {
+	padding-top: 1em;
+}
+
+.social-media a{
+	
+	color: white;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+	color: white;
+	font-weight: bold;
+    /*text-decoration: none;*/
+	text-decoration: underline;
+}
+
+.map p {
+	
+}
