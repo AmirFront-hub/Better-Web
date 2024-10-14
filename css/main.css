@@ -47,7 +47,6 @@ main {
     border-radius: 30px;
     box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
 	gap: 2em;
-	animation: fade-up 0.5s;
 }
 
 .circle-image {
@@ -74,6 +73,7 @@ video {
 	min-width: 100%;
 	width: 1px;
 	height: auto;
+	animation: fade-up 0.9s;
 }
 
 /*Saving shadow for future added divs*/
