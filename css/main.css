@@ -214,10 +214,10 @@ textarea, input {
 	width: 95%;
 }
 
-.signup-box input:valid {
+.signup-box input:user-valid {
 	outline: 2px solid green;
 }
 
-.signup-box input:invalid {
+.signup-box input:user-invalid {
 	outline: 2px solid red;
 }
