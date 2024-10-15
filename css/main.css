@@ -154,6 +154,11 @@ video {
 
 .menu-left {
 	text-align: left;
+	font-size: 18px;
+}
+
+.menu-left p {
+	font-weight: 500;
 }
 
 .menu-right {
@@ -198,4 +203,13 @@ textarea, input {
 
 .video-background {
 	animation: fade-up 0.5s;
+}
+
+.signup-box label {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-box input {
+	width: 95%;
 }
