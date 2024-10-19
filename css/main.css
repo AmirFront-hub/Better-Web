@@ -1,0 +1,223 @@
+html {
+	scroll-behavior: auto;
+}
+
+
+section {
+    padding: 1em;
+	scroll-snap-align: start;
+}
+
+main {
+	background-color: rgb(24, 24, 24);
+	color: white;
+}
+
+.titletext{
+	font-size: 3em;
+	color: white;
+	border: solid white;
+	margin-top: 5em ;
+	background-color: rgb(51, 51, 51, 0.8);
+	text-align: center;
+}
+
+.titletext h4 {
+	font-size: 70%;
+}
+
+.titleschema {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.banner {
+	background-image: url('/EXAM/pictues/Banner_background.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin: 0;
+	border: solid white;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(51, 51, 51);
+    max-width: 60%;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
+	gap: 2em;
+}
+
+.circle-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text-content {
+    flex: 2;
+	text-align: left;
+	/*padding-left: 2em;*/
+	font-size: 1.3em;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	/*padding-left: 2em;*/
+}
+
+video {
+	min-height: 100%;
+	min-width: 100%;
+	width: 1px;
+	height: auto;
+	animation: fade-up 0.9s;
+}
+
+/*Saving shadow for future added divs*/
+/*.shadow {
+	box-shadow: 1.2em 1.2em 0em -0.3em #ffffff;
+}*/
+
+.schematext {
+	/*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    max-width: 50rem;
+    margin: 50px auto;
+    border-radius: 30px;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.4em;
+	box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
+}
+
+.schematext ul li {
+	font-weight: bold;
+	text-decoration: none;
+	list-style: none;
+	
+}
+.schematext {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.signup-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgb(51, 51, 51);
+	max-width: 60rem;
+	padding: 3rem;
+	margin: 50px auto;
+	border-radius: 30px;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	box-shadow: 0.4em 0.6em 1em -0.3em #ffffff;
+}
+
+.submit-button {
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 501;
+	font-style: normal;
+	color: #333;
+    font-weight: bold;
+	/*border: solid white;*/
+	border-radius: 21px;
+	padding: 12px;
+}
+
+.submit-button:hover {
+	color: #ffffff;
+	background-color: #333;
+	border: 1px solid white;
+	transition-duration: 0.7s;
+}
+
+.menu-left {
+	text-align: left;
+	font-size: 18px;
+}
+
+.menu-left p {
+	font-weight: 500;
+}
+
+.menu-right {
+	border-left: solid #ffffff;
+	padding-left: 5em;
+}
+
+ul li {
+	padding: 0;
+    list-style-type: none;
+}
+
+textarea, input {
+	border:  1px black solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+@keyframes fade-down {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px) scale(0.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translateY(30px) scale(0.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
+.video-background {
+	animation: fade-up 0.5s;
+}
+
+.signup-box label {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-box input {
+	width: 95%;
+}
+
+.signup-box input:user-valid {
+	outline: 2px solid green;
+}
+
+.signup-box input:user-invalid {
+	outline: 2px solid red;
+}
